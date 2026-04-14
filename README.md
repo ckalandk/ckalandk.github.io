@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # ckalandk's Blog
 
 Welcome to my new blog! I'm hosting this on GitHub Pages 🚀
