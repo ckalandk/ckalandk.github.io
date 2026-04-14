@@ -1,5 +1,9 @@
 # ckalandk's Blog
 
+{% for post in site.posts %}
+* [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
+{% endfor %}
+
 Welcome to my new blog! I'm hosting this on GitHub Pages 🚀
 
 This blog is where I'll share what I'm learning and building, especially around:
