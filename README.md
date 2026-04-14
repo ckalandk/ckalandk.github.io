@@ -1,8 +1,8 @@
-# ckalandk's Blog
+---
+layout: default
+---
 
-{% for post in site.posts %}
-* [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
-{% endfor %}
+# ckalandk's Blog
 
 Welcome to my new blog! I'm hosting this on GitHub Pages 🚀
 
@@ -17,3 +17,11 @@ This blog is where I'll share what I'm learning and building, especially around:
 * 🚀 My Personal Projects and Experiments
 
 I'm excited to document my journey, share insights, and build things in public.
+
+---
+
+## My Blog Posts
+
+{% for post in site.posts %}
+* [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
+{% endfor %}
