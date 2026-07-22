@@ -14,10 +14,3 @@ This blog is where I'll share what I'm learning and building, especially around:
 
 I'm excited to document my journey, share insights, and build things in public.
 
----
-
-## My Blog Posts
-
-{% for post in site.posts %}
-* [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
-{% endfor %}
