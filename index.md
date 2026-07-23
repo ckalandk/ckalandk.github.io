@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+
+## Welcome to my blog!
+
+Here are my latest posts:
+
+
+  {% for post in site.posts %}
+    
+      {{ post.title }} - {{ post.date | date: "%B %d, %Y" }}
+    
+  {% endfor %}
