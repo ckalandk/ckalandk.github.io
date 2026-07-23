@@ -5,12 +5,4 @@ title: Home
 
 ## Welcome to my blog!
 
-Here are my latest posts:
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %d, %Y" }}
-    </li>
-  {% endfor %}
-</ul>
+This is just a test to see if everything is working
